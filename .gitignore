@@ -3,7 +3,6 @@ config.env
 my_notes.txt
 *.pem
 *.pdf
-screenshots/
 __pycache__/
 .aws/
 ids.env*
