@@ -1,0 +1,22 @@
+# Cleanup log
+# Run at : 2026-10-22 05:07:53 UTC
+# Region : ap-south-1
+
+[1] Terminating instances
+    all 3 terminated
+[2] Deleting peer routes and peering
+[3] Deleting security groups
+[4] Subnet associations, subnets, route tables
+[5] Internet gateway
+[6] VPCs
+[7] Key pair (AWS side) and local .pem
+
+=== VERIFY: resources still tagged Project=EWB-VPC-Peering (all lists should be empty) ===
+VPCs:        
+Subnets:     
+Instances:   
+Volumes:     
+Peerings:    
+Elastic IPs: 
+Key pairs:   
+(blank after a label = nothing left)

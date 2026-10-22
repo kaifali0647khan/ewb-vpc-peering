@@ -1,0 +1,35 @@
+# Route tables, subnet associations and routes
+# Run at : 2026-10-22 03:20:15 UTC
+# Region : ap-south-1
+
+=== ewb-rt-a-public  (rtb-0ddadf5f1e8698ba4)
+Associated subnet: subnet-0286389a0c186e82e
+-----------------------------------------------------
+|                DescribeRouteTables                |
++---------------+---------+-------------------------+
+|  Destination  |  State  |         Target          |
++---------------+---------+-------------------------+
+|  10.10.0.0/16 |  active |  local                  |
+|  10.20.0.0/16 |  active |  pcx-0a85c3b08e177d92e  |
+|  0.0.0.0/0    |  active |  igw-0a00f0c62a2f418bf  |
++---------------+---------+-------------------------+
+=== ewb-rt-a-private  (rtb-0b5446b924bf9cc5c)
+Associated subnet: subnet-0039e733b0362c147
+-----------------------------------------------------
+|                DescribeRouteTables                |
++---------------+---------+-------------------------+
+|  Destination  |  State  |         Target          |
++---------------+---------+-------------------------+
+|  10.10.0.0/16 |  active |  local                  |
+|  10.20.0.0/16 |  active |  pcx-0a85c3b08e177d92e  |
++---------------+---------+-------------------------+
+=== ewb-rt-b-private  (rtb-0365bdf098ad39752)
+Associated subnet: subnet-0bb3caad36b384b99
+-----------------------------------------------------
+|                DescribeRouteTables                |
++---------------+---------+-------------------------+
+|  Destination  |  State  |         Target          |
++---------------+---------+-------------------------+
+|  10.10.0.0/16 |  active |  pcx-0a85c3b08e177d92e  |
+|  10.20.0.0/16 |  active |  local                  |
++---------------+---------+-------------------------+

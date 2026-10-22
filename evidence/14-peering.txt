@@ -1,0 +1,15 @@
+# Peering connection
+# Run at : 2026-10-22 03:20:48 UTC
+# Region : ap-south-1
+
+--------------------------------------------
+|       DescribeVpcPeeringConnections      |
++----------------+-------------------------+
+|  Accepter      |  vpc-02b2af4ece3eddc51  |
+|  AccepterCIDR  |  10.20.0.0/16           |
+|  Name          |  ewb-a-b-peer           |
+|  PeeringId     |  pcx-0a85c3b08e177d92e  |
+|  Requester     |  vpc-03d527c8a80ee8e74  |
+|  RequesterCIDR |  10.10.0.0/16           |
+|  Status        |  active                 |
++----------------+-------------------------+

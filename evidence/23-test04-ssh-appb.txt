@@ -1,0 +1,13 @@
+# TEST 04 / Private SSH - laptop to App-B through the bastion (ProxyJump)
+# Run at : 2026-10-22 03:18:32 UTC
+# Region : ap-south-1
+
+$ ssh ewb-app-b
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+Connected to: ip-10-20-1-10.ap-south-1.compute.internal  private IP: 10.20.1.10 
+Peer path works: bastion -> peering -> App-B
